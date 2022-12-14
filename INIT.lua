@@ -19,6 +19,7 @@ local pole = script.Parent.Parent.Pole
 local texta = script.Parent.Parent.Title.BillboardGui.TextLabel
 local handle = script.Parent.Parent.Pole.Handles
 local space = ""
+print("Все компоненты флага были загружены.")
 -- Интерфейс компоненты (НЕ РЕКОМЕНДУЮ ИЗМЕНЯТЬ ОБЕ ФУНКЦИИ)
 local haventcapturedearly = true
 local v = game.ReplicatedStorage.Capturemsg:Clone()
